@@ -1,0 +1,15 @@
+Package: smols
+Title: Send Mail via Outlook based on LimeSurvey participant status
+Version: 0.0.2
+Authors@R: 
+    person(given = "Oliver",
+           family = "Purschke",
+           role = c("aut", "cre"),
+           email = "oliver.purschke@uk-halle.de",
+           comment = c(ORCID = "0000-0003-0444-0882"))
+Description: Provides helper functions for sending email invitations and reminders from Outlook to LimeSurvey participants, taking into account survey response status.
+License: GNU General Public License v3.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
