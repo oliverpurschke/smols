@@ -2,7 +2,7 @@
 #'
 #' send_remind_fun_3() erlaubt das versenden der dritten, und letzten, Erinnerungsmail an die Teilnehmer innerhalb der ersten Welle
 #' @param dat Dataframe mit Adressinformationen der Teilnehmer die angeschrieben werden sollen
-#' @param senden Sollen mail sofort gesendet werden oder erst in Outlook geöffnet werden (TRUE, FALSE)
+#' @param senden Sollen mails sofort gesendet werden oder erst in Outlook geöffnet werden (TRUE, FALSE)
 #' @export
 #' @examples
 #' send_remind_fun_3()

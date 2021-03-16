@@ -1,6 +1,6 @@
 #' Adressen einlesen
 #'
-#' read_address() erlaubt das Einlesen der MODYS-Adressinformationen
+#' read_address() erlaubt das Einlesen der Adressinformationen
 #' @param path_address Dateipfad für Adressen; Excel-Arbeitsmappe mit xlsm-Erweiterung
 #' @param col_types Spaltentypen
 #' @keywords Adressen
@@ -28,14 +28,17 @@ read_address <- function (path_address){
       Email_korrekt = str_replace(Email_korrekt,
                                   "\\;", ""),
       Email_korrekt = trimws(Email_korrekt),
+      Email_korrekt = ifelse(
+        str_detect(Email_korrekt, "@?\\."),
+        Email_korrekt,
+        paste0(Email_korrekt, ".de")
+      ),
       Name = gsub("ä", "&auml;", Name, ignore.case = T),
       Name = gsub("ö", "&ouml;", Name, ignore.case = T),
       Name = gsub("ü", "&uuml;", Name, ignore.case = T),
       Name = gsub("ß", "&szlig;", Name, ignore.case = T),
-      Anrede = ifelse(Anrede == "Herr", "geehrter Herr",
-                      "geehrte Frau"),
-      Email_vorhanden = ifelse(is.na(Email),
-                               0, 1),
+      Anrede = ifelse(Anrede == "Herr", "geehrter Herr", "geehrte Frau"),
+      Email_vorhanden = ifelse(is.na(Email), 0, 1),
       Email = Email_korrekt
     ) %>% select(-Email_korrekt) %>%
     rename(ID_L3 = "UDOKU_ID_FB") %>%
