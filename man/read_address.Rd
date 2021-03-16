@@ -12,7 +12,7 @@ read_address(path_address)
 \item{col_types}{Spaltentypen}
 }
 \description{
-read_address() erlaubt das Einlesen der MODYS-Adressinformationen
+read_address() erlaubt das Einlesen der Adressinformationen
 }
 \examples{
 read_address()

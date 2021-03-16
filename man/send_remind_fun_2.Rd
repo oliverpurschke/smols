@@ -9,7 +9,7 @@ send_remind_fun_2(dat, senden)
 \arguments{
 \item{dat}{Dataframe mit Adressinformationen der Teilnehmer die angeschrieben werden sollen}
 
-\item{senden}{Sollen mail sofort gesendet werden oder erst in Outlook geöffnet werden (TRUE, FALSE)}
+\item{senden}{Sollen mails sofort gesendet werden oder erst in Outlook geöffnet werden (TRUE, FALSE)}
 }
 \description{
 send_remind_fun_2() erlaubt das versenden der zweiten Erinnerungsmail an die Teilnehmer innerhalb der ersten Welle
