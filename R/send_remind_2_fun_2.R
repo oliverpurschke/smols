@@ -30,8 +30,8 @@ send_remind_2_fun_2 <-
           M&ouml;glicherweise sind Ihnen die E-Mails nicht zugestellt worden oder Sie haben die E-Mails &uuml;bersehen. <p>",
 
           "Zur Durchf&uuml;hrung der Befragung klicken Sie bitte auf den folgenden Link:<p> ",
-          "<a href='https://websz.uk-halle.de'>
-            https://websz.uk-halle.de</a><p>",
+          "<a href='https://webszh.uk-halle.de/nako/'>
+            https://webszh.uk-halle.de/nako/</a><p>",
 
           "Sollte der Link nicht aktiviert sein, bitten wir Sie den Link zu kopieren und in das Adressfeld Ihres
       Browsers
