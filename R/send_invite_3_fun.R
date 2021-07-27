@@ -35,8 +35,8 @@ send_invite_3_fun <- function(dat, senden) {
       <p>",
 
       "Bitte klicken Sie zur Durchf&uuml;hrung der Befragung auf den folgenden Link:<p> ",
-      "<a href='https://webszh.uk-halle.de/nako/'>
-        https://webszh.uk-halle.de/nako/</a><p>",
+      "<a href='https://webszh.uk-halle.de/intkohort/'>
+        https://webszh.uk-halle.de/intkohort/</a><p>",
 
       "Sollte der Link nicht aktiviert sein, bitten wir Sie den Link zu kopieren und in das Adressfeld Ihres
         Browsers

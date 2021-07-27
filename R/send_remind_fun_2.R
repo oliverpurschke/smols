@@ -31,8 +31,8 @@ send_remind_fun_2 <-
       sich alle 6 Monate wiederholenden Befragung teilzunehmen. <p>",
 
           "Zur Durchf&uuml;hrung der Befragung klicken Sie bitte auf den folgenden Link:<p> ",
-          "<a href='https://webszh.uk-halle.de/nako/'>
-            https://webszh.uk-halle.de/nako/</a><p>",
+          "<a href='https://webszh.uk-halle.de/intkohort/'>
+            https://webszh.uk-halle.de/intkohort/</a><p>",
 
           "Sollte der Link nicht aktiviert sein, bitten wir Sie den Link zu kopieren und in das Adressfeld Ihres
       Browsers
