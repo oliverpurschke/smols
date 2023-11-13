@@ -3,7 +3,7 @@
 #' ew_add_merge() erlaubt das Verbinden Adress- und Einwillungsinformationen
 #' @param ew_dat Einwilligungsdatei
 #' @param add_dat Addressdatei
-#' @param stat_exclude Teilnehmerstatus in Modys der ausgeschlossen werden soll
+#' @param stat_exclude Status der Teilnehmer in Modys der ausgeschlossen werden soll
 #' @param n_max Maximale Teilnehmerzahl die angeschrieben werden soll
 #' @param count_surv Zähler für Survey / Welle
 #' @param resp_time ab zweiter Welle: Zeitraum, in Monaten, der zwischen Limesurvey Antwortdatum und derzeitigen Datum
